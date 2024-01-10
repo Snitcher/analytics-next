@@ -1,5 +1,5 @@
 /// <reference types="@cloudflare/workers-types" />
-import { Analytics } from '@segment/analytics-node'
+import { Analytics } from '@snitcher/analytics-node'
 
 export default {
   fetch(_request: Request, _env: {}, _ctx: ExecutionContext) {

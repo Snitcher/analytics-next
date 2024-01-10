@@ -10,7 +10,7 @@ This project uses [Turborepo](https://turbo.build/repo/docs), for dependency-awa
  yarn lint && yarn test
 ```
 
-### 
+###
 
 ### Build a specific package and all dependencies
 You have a couple options:
@@ -18,9 +18,9 @@ You have a couple options:
 
 2. You can use turborepo directly to build a package and all dependencies. See: Turborepo https://turbo.build/repo/docs/core-concepts/monorepos/filtering#filter-syntax.
 
-For example: 
+For example:
 ```
-yarn run -T turbo run build --filter=@segment/analytics-next
+yarn run -T turbo run build --filter=@snitcher/analytics-browser
 ```
 or
 ```

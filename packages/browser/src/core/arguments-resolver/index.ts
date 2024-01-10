@@ -3,7 +3,7 @@ import {
   isPlainObject,
   isString,
   isNumber,
-} from '@segment/analytics-core'
+} from '@snitcher/analytics-core'
 import { Context } from '../context'
 import {
   Callback,

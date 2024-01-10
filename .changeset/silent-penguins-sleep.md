@@ -1,5 +1,5 @@
 ---
-'@segment/analytics-next': minor
+'@snitcher/analytics-browser': minor
 ---
 
-Deprecate AnalyticsNode class (in favor of the standalone @segment/analytics-node)
+Deprecate AnalyticsNode class (in favor of the standalone @snitcher/analytics-node)

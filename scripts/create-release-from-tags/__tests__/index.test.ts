@@ -42,13 +42,13 @@ describe('parseReleaseNotes', () => {
 describe('parseRawTags', () => {
   test('should work if all are on a single line', () => {
     const rawTags =
-      '@segment/analytics-next@2.1.1 @segment/analytics-foo@1.0.1 @segment/analytics-core@1.0.0'
+      '@snitcher/analytics-browser@2.1.1 @segment/analytics-foo@1.0.1 @snitcher/analytics-core@1.0.0'
     const tags = parseRawTags(rawTags)
     expect(tags).toMatchInlineSnapshot(`
       [
         {
-          "name": "@segment/analytics-next",
-          "raw": "@segment/analytics-next@2.1.1",
+          "name": "@snitcher/analytics-browser",
+          "raw": "@snitcher/analytics-browser@2.1.1",
           "versionNumber": "2.1.1",
         },
         {
@@ -57,8 +57,8 @@ describe('parseRawTags', () => {
           "versionNumber": "1.0.1",
         },
         {
-          "name": "@segment/analytics-core",
-          "raw": "@segment/analytics-core@1.0.0",
+          "name": "@snitcher/analytics-core",
+          "raw": "@snitcher/analytics-core@1.0.0",
           "versionNumber": "1.0.0",
         },
       ]
@@ -66,15 +66,15 @@ describe('parseRawTags', () => {
   })
   test('should work if there are multiple columns', () => {
     const rawTags = `
-    @segment/analytics-next@2.1.1  @segment/analytics-foo@1.0.1
-    @segment/analytics-core@1.0.0  @segment/analytics-bar@1.0.1
+    @snitcher/analytics-browser@2.1.1  @segment/analytics-foo@1.0.1
+    @snitcher/analytics-core@1.0.0  @segment/analytics-bar@1.0.1
     `
     const tags = parseRawTags(rawTags)
     expect(tags).toMatchInlineSnapshot(`
       [
         {
-          "name": "@segment/analytics-next",
-          "raw": "@segment/analytics-next@2.1.1",
+          "name": "@snitcher/analytics-browser",
+          "raw": "@snitcher/analytics-browser@2.1.1",
           "versionNumber": "2.1.1",
         },
         {
@@ -83,8 +83,8 @@ describe('parseRawTags', () => {
           "versionNumber": "1.0.1",
         },
         {
-          "name": "@segment/analytics-core",
-          "raw": "@segment/analytics-core@1.0.0",
+          "name": "@snitcher/analytics-core",
+          "raw": "@snitcher/analytics-core@1.0.0",
           "versionNumber": "1.0.0",
         },
         {
@@ -97,16 +97,16 @@ describe('parseRawTags', () => {
   })
   test('should work if there are many many columns', () => {
     const rawTags = `
-    @segment/analytics-next@2.1.1  @segment/analytics-foo@1.0.1 @segment/analytics-bar@1.0.1
-    @segment/analytics-next@2.1.1  @segment/analytics-baz@1.0.1 @segment/analytics-foobar@1.0.1
-    @segment/analytics-core@1.0.0
+    @snitcher/analytics-browser@2.1.1  @segment/analytics-foo@1.0.1 @segment/analytics-bar@1.0.1
+    @snitcher/analytics-browser@2.1.1  @segment/analytics-baz@1.0.1 @segment/analytics-foobar@1.0.1
+    @snitcher/analytics-core@1.0.0
     `
     const tags = parseRawTags(rawTags)
     expect(tags).toMatchInlineSnapshot(`
       [
         {
-          "name": "@segment/analytics-next",
-          "raw": "@segment/analytics-next@2.1.1",
+          "name": "@snitcher/analytics-browser",
+          "raw": "@snitcher/analytics-browser@2.1.1",
           "versionNumber": "2.1.1",
         },
         {
@@ -120,8 +120,8 @@ describe('parseRawTags', () => {
           "versionNumber": "1.0.1",
         },
         {
-          "name": "@segment/analytics-next",
-          "raw": "@segment/analytics-next@2.1.1",
+          "name": "@snitcher/analytics-browser",
+          "raw": "@snitcher/analytics-browser@2.1.1",
           "versionNumber": "2.1.1",
         },
         {
@@ -135,8 +135,8 @@ describe('parseRawTags', () => {
           "versionNumber": "1.0.1",
         },
         {
-          "name": "@segment/analytics-core",
-          "raw": "@segment/analytics-core@1.0.0",
+          "name": "@snitcher/analytics-core",
+          "raw": "@snitcher/analytics-core@1.0.0",
           "versionNumber": "1.0.0",
         },
       ]
@@ -144,20 +144,20 @@ describe('parseRawTags', () => {
   })
   test('should work if there is newline characters', () => {
     const rawTags = `
-    @segment/analytics-next@2.1.1
-    @segment/analytics-core@1.0.0
+    @snitcher/analytics-browser@2.1.1
+    @snitcher/analytics-core@1.0.0
     `
     const tags = parseRawTags(rawTags)
     expect(tags).toMatchInlineSnapshot(`
       [
         {
-          "name": "@segment/analytics-next",
-          "raw": "@segment/analytics-next@2.1.1",
+          "name": "@snitcher/analytics-browser",
+          "raw": "@snitcher/analytics-browser@2.1.1",
           "versionNumber": "2.1.1",
         },
         {
-          "name": "@segment/analytics-core",
-          "raw": "@segment/analytics-core@1.0.0",
+          "name": "@snitcher/analytics-core",
+          "raw": "@snitcher/analytics-core@1.0.0",
           "versionNumber": "1.0.0",
         },
       ]

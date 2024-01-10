@@ -45,7 +45,7 @@ export const withCMP = createWrapper({
 
 ```js
 import { withCMP } from './wrapper'
-import { AnalyticsBrowser } from '@segment/analytics-next'
+import { AnalyticsBrowser } from '@snitcher/analytics-browser'
 
 export const analytics = new AnalyticsBrowser()
 
@@ -82,7 +82,7 @@ See the complete list of settings in the **[Settings interface](src/types/settin
 
 ## Special Requirements
 
-- For npm users, this library expects a version of `@segment/analytics-next` >= **1.53.1**. Note: If your library depends on this library, you should have the appropriate peer dependency declaration. See our `package.json` for an example.
+- For npm users, this library expects a version of `@snitcher/analytics-browser` >= **1.53.1**. Note: If your library depends on this library, you should have the appropriate peer dependency declaration. See our `package.json` for an example.
 
 ## Development
 

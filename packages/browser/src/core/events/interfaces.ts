@@ -13,7 +13,7 @@ import {
   GroupTraits,
   UserTraits,
   Traits,
-} from '@segment/analytics-core'
+} from '@snitcher/analytics-core'
 
 export interface Options extends CoreOptions {}
 

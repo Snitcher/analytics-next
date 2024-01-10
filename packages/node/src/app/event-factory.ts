@@ -1,4 +1,4 @@
-import { EventFactory } from '@segment/analytics-core'
+import { EventFactory } from '@snitcher/analytics-core'
 import { createMessageId } from '../lib/get-message-id'
 import { SegmentEvent } from './types'
 

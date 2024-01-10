@@ -1,4 +1,4 @@
-import type { CoreEmitterContract } from '@segment/analytics-core'
+import type { CoreEmitterContract } from '@snitcher/analytics-core'
 import { Emitter } from '@segment/analytics-generic-utils'
 import { Context } from './context'
 import type { AnalyticsSettings } from './settings'

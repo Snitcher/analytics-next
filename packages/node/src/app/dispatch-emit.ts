@@ -1,4 +1,4 @@
-import { dispatch } from '@segment/analytics-core'
+import { dispatch } from '@snitcher/analytics-core'
 import type { NodeEmitter } from './emitter'
 import { Context } from './context'
 import { NodeEventQueue } from './event-queue'

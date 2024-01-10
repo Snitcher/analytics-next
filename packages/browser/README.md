@@ -1,4 +1,4 @@
-# @segment/analytics-next
+# @snitcher/analytics-browser
 
 Analytics Next (aka Analytics 2.0) is the latest version of Segment’s JavaScript SDK - enabling you to send your data to any tool without having to learn, test, or use a new API every time.
 
@@ -28,19 +28,19 @@ The easiest and quickest way to get started with Analytics 2.0 is to [use it thr
 
 ```sh
 # npm
-npm install @segment/analytics-next
+npm install @snitcher/analytics-browser
 
 # yarn
-yarn add @segment/analytics-next
+yarn add @snitcher/analytics-browser
 
 # pnpm
-pnpm add @segment/analytics-next
+pnpm add @snitcher/analytics-browser
 ```
 
 2. Import the package into your project and you're good to go (with working types)!
 
 ```ts
-import { AnalyticsBrowser } from '@segment/analytics-next'
+import { AnalyticsBrowser } from '@snitcher/analytics-browser'
 
 const analytics = AnalyticsBrowser.load({ writeKey: '<YOUR_WRITE_KEY>' })
 
@@ -94,7 +94,7 @@ analytics
 
 ### Vanilla React
 ```tsx
-import { AnalyticsBrowser } from '@segment/analytics-next'
+import { AnalyticsBrowser } from '@snitcher/analytics-browser'
 
 // We can export this instance to share with rest of our codebase.
 export const analytics = AnalyticsBrowser.load({ writeKey: '<YOUR_WRITE_KEY>' })
@@ -113,7 +113,7 @@ const App = () => (
 1. Export analytics instance.
 
 ```ts
-import { AnalyticsBrowser } from '@segment/analytics-next'
+import { AnalyticsBrowser } from '@snitcher/analytics-browser'
 
 export const analytics = AnalyticsBrowser.load({
   writeKey: '<YOUR_WRITE_KEY>',
@@ -150,19 +150,19 @@ export default defineComponent({
 
 1. Run analytics.js in a web worker via [partytown.io](https://partytown.builder.io/). See [our partytown example](../../playgrounds/next-playground/pages/partytown). **Supports both cloud and device mode destinations, but not all device mode destinations may work.**
 
-2. Try [@segment/analytics-node](../node) with `flushAt: 1`, which should work in any runtime where `fetch` is available. **Warning: cloud destinations only!**
+2. Try [@snitcher/analytics-node](../node) with `flushAt: 1`, which should work in any runtime where `fetch` is available. **Warning: cloud destinations only!**
 
 
 
 
 ## How to add typescript support (snippet users only)
 
-1. Install npm package `@segment/analytics-next` as a dev dependency.
+1. Install npm package `@snitcher/analytics-browser` as a dev dependency.
 
 2. Create `./typings/analytics.d.ts`
 ```ts
 // ./typings/analytics.d.ts
-import type { AnalyticsSnippet } from "@segment/analytics-next";
+import type { AnalyticsSnippet } from "@snitcher/analytics-browser";
 
 declare global {
   interface Window {
@@ -201,7 +201,7 @@ $ yarn test
 $ yarn dev  # optional: runs analytics-next playground.
 ```
 
-> If you get "Cannot find module '@segment/analytics-next' or its corresponding type declarations.ts(2307)" (in VSCode), you may have to "cmd+shift+p -> "TypeScript: Restart TS server"
+> If you get "Cannot find module '@snitcher/analytics-browser' or its corresponding type declarations.ts(2307)" (in VSCode), you may have to "cmd+shift+p -> "TypeScript: Restart TS server"
 
 Then, make your changes and test them out in the test app!
 
@@ -227,7 +227,7 @@ and can be of five different types:
 Here is an example of a simple plugin that would convert all track events event names to lowercase before the event gets sent through the rest of the pipeline:
 
 ```ts
-import type { Plugin } from '@segment/analytics-next'
+import type { Plugin } from '@snitcher/analytics-browser'
 
 export const lowercase: Plugin = {
   name: 'Lowercase Event Name',

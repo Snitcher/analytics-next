@@ -1,4 +1,4 @@
-import { Integrations } from '@segment/analytics-core'
+import { Integrations } from '@snitcher/analytics-core'
 import { LegacyIntegrationConfiguration } from '../..'
 
 export const isInstallableIntegration = (

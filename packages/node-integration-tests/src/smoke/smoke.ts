@@ -1,5 +1,5 @@
-import { default as AnalyticsDefaultImport } from '@segment/analytics-node'
-import { Analytics as AnalyticsNamedImport } from '@segment/analytics-node'
+import { default as AnalyticsDefaultImport } from '@snitcher/analytics-node'
+import { Analytics as AnalyticsNamedImport } from '@snitcher/analytics-node'
 
 {
   // test named imports vs default imports

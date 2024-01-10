@@ -1,4 +1,4 @@
-import { CoreContext } from '@segment/analytics-core'
+import { CoreContext } from '@snitcher/analytics-core'
 
 class TestCtx extends CoreContext {}
 

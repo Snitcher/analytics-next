@@ -1,4 +1,4 @@
-# @segment/analytics-next
+# @snitcher/analytics-browser
 
 ## 1.62.1
 
@@ -8,7 +8,7 @@
 
 - Updated dependencies [[`7b93e7b`](https://github.com/segmentio/analytics-next/commit/7b93e7b50fa293aebaf6767a44bf7708b231d5cd)]:
   - @segment/analytics-generic-utils@1.1.1
-  - @segment/analytics-core@1.4.1
+  - @snitcher/analytics-core@1.4.1
 
 ## 1.62.0
 
@@ -21,7 +21,7 @@
 - [#1001](https://github.com/segmentio/analytics-next/pull/1001) [`57be1ac`](https://github.com/segmentio/analytics-next/commit/57be1acd556a9779edbc5fd4d3f820fb50b65697) Thanks [@silesky](https://github.com/silesky)! - add hasUnmappedDestinations property to types
 
 - Updated dependencies [[`d9b47c4`](https://github.com/segmentio/analytics-next/commit/d9b47c43e5e08efce14fe4150536ff60b8df91e0), [`d9b47c4`](https://github.com/segmentio/analytics-next/commit/d9b47c43e5e08efce14fe4150536ff60b8df91e0)]:
-  - @segment/analytics-core@1.4.0
+  - @snitcher/analytics-core@1.4.0
   - @segment/analytics-generic-utils@1.1.0
 
 ## 1.61.0
@@ -56,7 +56,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`897f4cc`](https://github.com/segmentio/analytics-next/commit/897f4cc69de4cdd38efd0cd70567bfed0c454fec)]:
-  - @segment/analytics-core@1.3.2
+  - @snitcher/analytics-core@1.3.2
 
 ## 1.57.0
 
@@ -85,7 +85,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`ee855ba`](https://github.com/segmentio/analytics-next/commit/ee855bad751c393a40dcbde7ae861f27d2b4da26)]:
-  - @segment/analytics-core@1.3.1
+  - @snitcher/analytics-core@1.3.1
 
 ## 1.54.0
 
@@ -132,7 +132,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`6cba535`](https://github.com/segmentio/analytics-next/commit/6cba5356c5f751e3edb30f7f524d4498600895b0)]:
-  - @segment/analytics-core@1.3.0
+  - @snitcher/analytics-core@1.3.0
 
 ## 1.52.0
 
@@ -149,7 +149,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`7dcafa2`](https://github.com/segmentio/analytics-next/commit/7dcafa29cbce86d8c3d3c829c3ba7c22148949fc)]:
-  - @segment/analytics-core@1.2.5
+  - @snitcher/analytics-core@1.2.5
 
 ## 1.51.6
 
@@ -180,7 +180,7 @@
 - [#835](https://github.com/segmentio/analytics-next/pull/835) [`9353e09`](https://github.com/segmentio/analytics-next/commit/9353e0999f942db33066e337e9742ac2e96716b7) Thanks [@silesky](https://github.com/silesky)! - Refactor shared validation logic. Create granular error message if user ID does not match string type.
 
 - Updated dependencies [[`9353e09`](https://github.com/segmentio/analytics-next/commit/9353e0999f942db33066e337e9742ac2e96716b7)]:
-  - @segment/analytics-core@1.2.4
+  - @snitcher/analytics-core@1.2.4
 
 ## 1.51.3
 
@@ -195,7 +195,7 @@
 - [#805](https://github.com/segmentio/analytics-next/pull/805) [`afb027a`](https://github.com/segmentio/analytics-next/commit/afb027a5b6287fa520283172392b0c39a628a6ae) Thanks [@silesky](https://github.com/silesky)! - Upgrade typescript
 
 - Updated dependencies [[`afb027a`](https://github.com/segmentio/analytics-next/commit/afb027a5b6287fa520283172392b0c39a628a6ae)]:
-  - @segment/analytics-core@1.2.3
+  - @snitcher/analytics-core@1.2.3
 
 ## 1.51.1
 
@@ -220,7 +220,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`69154c3`](https://github.com/segmentio/analytics-next/commit/69154c31f0739c3d1e31c3fd4d0f075fac721289)]:
-  - @segment/analytics-core@1.2.2
+  - @snitcher/analytics-core@1.2.2
 
 ## 1.49.2
 
@@ -231,7 +231,7 @@
 * [#758](https://github.com/segmentio/analytics-next/pull/758) [`ef47e9e`](https://github.com/segmentio/analytics-next/commit/ef47e9e469390062b44790b6f92bb976708fab71) Thanks [@zikaari](https://github.com/zikaari)! - Remove direct wirings for Segment Inspector
 
 * Updated dependencies [[`43897d6`](https://github.com/segmentio/analytics-next/commit/43897d6ffc5f6c7be6a9dec569997348b8c93e51)]:
-  - @segment/analytics-core@1.2.1
+  - @snitcher/analytics-core@1.2.1
 
 ## 1.49.1
 
@@ -257,7 +257,7 @@
 - [#742](https://github.com/segmentio/analytics-next/pull/742) [`e29a21a`](https://github.com/segmentio/analytics-next/commit/e29a21adafb44a8810c7534ecde96f03eab0b246) Thanks [@silesky](https://github.com/silesky)! - Fix webdriver.io interception bug. Refactor to use native fetch where unfetch is unavailable.
 
 - Updated dependencies [[`fed489c`](https://github.com/segmentio/analytics-next/commit/fed489cbf2e5b4c0f8423453e24831ec5dcdd7ce), [`61688e2`](https://github.com/segmentio/analytics-next/commit/61688e251ad2f60dae4cfd65cf59401c29ec66bd)]:
-  - @segment/analytics-core@1.2.0
+  - @snitcher/analytics-core@1.2.0
 
 ## 1.48.0
 
@@ -276,7 +276,7 @@
 * [#721](https://github.com/segmentio/analytics-next/pull/721) [`779e66b`](https://github.com/segmentio/analytics-next/commit/779e66b1d5b64af3a632adc0da7642bbdd943d8b) Thanks [@pooyaj](https://github.com/pooyaj)! - Expose universal storage directly on analytics object
 
 * Updated dependencies [[`80e0d0a`](https://github.com/segmentio/analytics-next/commit/80e0d0a7d074422654cbebe0c3edb90e1d42ad62)]:
-  - @segment/analytics-core@1.1.6
+  - @snitcher/analytics-core@1.1.6
 
 ## 1.47.1
 
@@ -285,7 +285,7 @@
 - [#710](https://github.com/segmentio/analytics-next/pull/710) [`ef5cd39`](https://github.com/segmentio/analytics-next/commit/ef5cd39ce3a83321f7bf7792c2e68d40ce2be1c6) Thanks [@chrisradek](https://github.com/chrisradek)! - Fixes an issue impacting a small number of destinations where explicitly enabling or disabling an integration on load would not work as expected.
 
 - Updated dependencies [[`90b915a`](https://github.com/segmentio/analytics-next/commit/90b915ac3447d76673e98661c54bf5a0ced2a555), [`108c77e`](https://github.com/segmentio/analytics-next/commit/108c77e81a4e9d2a64eb56e78f707ae6c2ea6ed2)]:
-  - @segment/analytics-core@1.1.5
+  - @snitcher/analytics-core@1.1.5
 
 ## 1.47.0
 
@@ -298,14 +298,14 @@
 ### Patch Changes
 
 - Updated dependencies [[`ecb4b8d`](https://github.com/segmentio/analytics-next/commit/ecb4b8db0194e06a3ee3c8cae57d4f327d15dc02)]:
-  - @segment/analytics-core@1.1.4
+  - @snitcher/analytics-core@1.1.4
 
 ## 1.46.4
 
 ### Patch Changes
 
 - Updated dependencies [[`0b9f4d7`](https://github.com/segmentio/analytics-next/commit/0b9f4d7e82662f7d5fda3590e93b10b3fd2e9833)]:
-  - @segment/analytics-core@1.1.3
+  - @snitcher/analytics-core@1.1.3
 
 ## 1.46.3
 
@@ -324,7 +324,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`98d1b12`](https://github.com/segmentio/analytics-next/commit/98d1b127082f5fc7904980a561220c64c26edff3)]:
-  - @segment/analytics-core@1.1.2
+  - @snitcher/analytics-core@1.1.2
 
 ## 1.46.0
 
@@ -341,7 +341,7 @@
 - [#641](https://github.com/segmentio/analytics-next/pull/641) [`3d31bd0`](https://github.com/segmentio/analytics-next/commit/3d31bd09ea2029a9e5413aebe55698bbf4fbf7c9) Thanks [@silesky](https://github.com/silesky)! - Update tsub dependency
 
 - Updated dependencies [[`409cae4`](https://github.com/segmentio/analytics-next/commit/409cae4b9ac404277aa44bab7428186129b42a35)]:
-  - @segment/analytics-core@1.1.1
+  - @snitcher/analytics-core@1.1.1
 
 ## 1.45.0
 
@@ -378,7 +378,7 @@
 - [#613](https://github.com/segmentio/analytics-next/pull/613) [`503bea2`](https://github.com/segmentio/analytics-next/commit/503bea221643dbd317376c28c7ce60c688329756) Thanks [@silesky](https://github.com/silesky)! - fix change detection bug and add ability to detect tab focus loss events
 
 - Updated dependencies [[`4644afc`](https://github.com/segmentio/analytics-next/commit/4644afc5be2dac90465e16a485ef5c34ff694da3), [`598fc31`](https://github.com/segmentio/analytics-next/commit/598fc318a457ac6e5b04d04406f8d836d83763a4), [`ce90543`](https://github.com/segmentio/analytics-next/commit/ce905439355c1cbd306535600bf356710be147de), [`7b5d3df`](https://github.com/segmentio/analytics-next/commit/7b5d3df8d7d8e479d1dda4557297baedb3cdcf6f)]:
-  - @segment/analytics-core@1.1.0
+  - @snitcher/analytics-core@1.1.0
 
 ## 1.43.0
 
@@ -419,7 +419,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`93c8f1f`](https://github.com/segmentio/analytics-next/commit/93c8f1f7dabe6fca5bd0f8f9f0cc0c0e14cd2128)]:
-  - @segment/analytics-core@1.0.1
+  - @snitcher/analytics-core@1.0.1
 
 ## 1.41.1
 

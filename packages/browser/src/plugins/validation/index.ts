@@ -7,7 +7,7 @@ import {
   assertEventExists,
   assertEventType,
   assertTrackEventName,
-} from '@segment/analytics-core'
+} from '@snitcher/analytics-core'
 
 function validate(ctx: Context): Context {
   const event = ctx.event

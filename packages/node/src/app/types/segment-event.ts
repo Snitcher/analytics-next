@@ -1,4 +1,4 @@
-import type { CoreSegmentEvent } from '@segment/analytics-core'
+import type { CoreSegmentEvent } from '@snitcher/analytics-core'
 
 type SegmentEventType = 'track' | 'page' | 'identify' | 'alias' | 'screen'
 

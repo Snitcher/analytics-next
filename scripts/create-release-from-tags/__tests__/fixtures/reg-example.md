@@ -1,4 +1,4 @@
-    # @segment/analytics-core
+    # @snitcher/analytics-core
 
     ## 1.99.0
 

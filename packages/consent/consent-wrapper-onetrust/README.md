@@ -75,7 +75,7 @@ pnpm add @segment/analytics-consent-wrapper-onetrust
 
 ```ts
 import { withOneTrust } from '@segment/analytics-consent-wrapper-onetrust'
-import { AnalyticsBrowser } from '@segment/analytics-next'
+import { AnalyticsBrowser } from '@snitcher/analytics-browser'
 
 export const analytics = new AnalyticsBrowser()
 

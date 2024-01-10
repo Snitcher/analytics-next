@@ -1,4 +1,4 @@
-import { ValidationError } from '@segment/analytics-core'
+import { ValidationError } from '@snitcher/analytics-core'
 import { HTTPClient, HTTPFetchFn } from '../lib/http-client'
 
 export interface AnalyticsSettings {

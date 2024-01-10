@@ -24,8 +24,8 @@
 
 ## Packages
 
-- [@segment/analytics-next](packages/browser#readme): Analytics.js SDK for **web browsers**
-- [@segment/analytics-node](packages/node#readme): Analytics.js SDK for **Node.js**
+- [@snitcher/analytics-browser](packages/browser#readme): Analytics.js SDK for **web browsers**
+- [@snitcher/analytics-node](packages/node#readme): Analytics.js SDK for **Node.js**
 
 ## Contributing
 

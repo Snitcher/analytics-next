@@ -1,4 +1,4 @@
-import { isPlainObject } from '@segment/analytics-core'
+import { isPlainObject } from '@snitcher/analytics-core'
 
 /**
  * Final Page Context object expected in the Segment Event context

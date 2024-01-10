@@ -1,5 +1,5 @@
 import { createConsentStampingMiddleware } from '../consent-stamping'
-import { Context, MiddlewareFunction } from '@segment/analytics-next'
+import { Context, MiddlewareFunction } from '@snitcher/analytics-browser'
 
 describe(createConsentStampingMiddleware, () => {
   let middlewareFn: MiddlewareFunction

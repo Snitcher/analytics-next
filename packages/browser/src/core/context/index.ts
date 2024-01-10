@@ -4,7 +4,7 @@ import {
   ContextFailedDelivery,
   SerializedContext,
   CancelationOptions,
-} from '@segment/analytics-core'
+} from '@snitcher/analytics-core'
 import { SegmentEvent } from '../events/interfaces'
 import { Stats } from '../stats'
 

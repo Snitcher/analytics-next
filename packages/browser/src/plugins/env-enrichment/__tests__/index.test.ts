@@ -4,7 +4,7 @@ import { Analytics } from '../../../core/analytics'
 import { envEnrichment } from '..'
 import { SegmentioSettings } from '../../segmentio'
 import { version } from '../../../generated/version'
-import { CoreExtraContext } from '@segment/analytics-core'
+import { CoreExtraContext } from '@snitcher/analytics-core'
 import { UADataValues } from '../../../lib/client-hints/interfaces'
 import {
   highEntropyTestData,

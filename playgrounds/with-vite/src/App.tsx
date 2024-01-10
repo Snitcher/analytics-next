@@ -1,5 +1,5 @@
 import React from 'react'
-import { AnalyticsBrowser } from '@segment/analytics-next'
+import { AnalyticsBrowser } from '@snitcher/analytics-browser'
 import logo from './logo.svg'
 import './App.css'
 

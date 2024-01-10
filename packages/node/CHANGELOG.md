@@ -1,4 +1,4 @@
-# @segment/analytics-node
+# @snitcher/analytics-node
 
 ## 1.2.0
 
@@ -10,14 +10,14 @@
 
 - Updated dependencies [[`7b93e7b`](https://github.com/segmentio/analytics-next/commit/7b93e7b50fa293aebaf6767a44bf7708b231d5cd)]:
   - @segment/analytics-generic-utils@1.1.1
-  - @segment/analytics-core@1.4.1
+  - @snitcher/analytics-core@1.4.1
 
 ## 1.1.4
 
 ### Patch Changes
 
 - Updated dependencies [[`d9b47c4`](https://github.com/segmentio/analytics-next/commit/d9b47c43e5e08efce14fe4150536ff60b8df91e0), [`d9b47c4`](https://github.com/segmentio/analytics-next/commit/d9b47c43e5e08efce14fe4150536ff60b8df91e0)]:
-  - @segment/analytics-core@1.4.0
+  - @snitcher/analytics-core@1.4.0
   - @segment/analytics-generic-utils@1.1.0
 
 ## 1.1.3
@@ -34,7 +34,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`897f4cc`](https://github.com/segmentio/analytics-next/commit/897f4cc69de4cdd38efd0cd70567bfed0c454fec)]:
-  - @segment/analytics-core@1.3.2
+  - @snitcher/analytics-core@1.3.2
 
 ## 1.1.1
 
@@ -43,7 +43,7 @@
 - [#946](https://github.com/segmentio/analytics-next/pull/946) [`edfb8b5`](https://github.com/segmentio/analytics-next/commit/edfb8b5c4463c2ccd336fdfc7c35d4cd711f5410) Thanks [@danieljackins](https://github.com/danieljackins)! - Include sentAt field in payload
 
 - Updated dependencies [[`ee855ba`](https://github.com/segmentio/analytics-next/commit/ee855bad751c393a40dcbde7ae861f27d2b4da26)]:
-  - @segment/analytics-core@1.3.1
+  - @snitcher/analytics-core@1.3.1
 
 ## 1.1.0
 

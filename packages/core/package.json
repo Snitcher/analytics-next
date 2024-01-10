@@ -1,5 +1,5 @@
 {
-  "name": "@segment/analytics-core",
+  "name": "@snitcher/analytics-core",
   "version": "1.4.1",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    ".": "yarn run -T turbo run --filter=@segment/analytics-core",
+    ".": "yarn run -T turbo run --filter=@snitcher/analytics-core",
     "test": "yarn jest",
     "lint": "yarn concurrently 'yarn:eslint .' 'yarn:tsc --noEmit'",
     "build": "yarn concurrently 'yarn:build:*'",

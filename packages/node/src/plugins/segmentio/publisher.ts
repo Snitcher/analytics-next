@@ -1,4 +1,4 @@
-import { backoff } from '@segment/analytics-core'
+import { backoff } from '@snitcher/analytics-core'
 import type { Context } from '../../app/context'
 import { tryCreateFormattedUrl } from '../../lib/create-url'
 import { createDeferred } from '@segment/analytics-generic-utils'

@@ -1,4 +1,4 @@
-import { CoreStats } from '@segment/analytics-core'
+import { CoreStats } from '@snitcher/analytics-core'
 import { MetricsOptions, RemoteMetrics } from './remote-metrics'
 
 let remoteMetrics: RemoteMetrics | undefined

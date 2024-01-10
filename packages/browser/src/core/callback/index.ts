@@ -1,1 +1,1 @@
-export { invokeCallback, pTimeout } from '@segment/analytics-core'
+export { invokeCallback, pTimeout } from '@snitcher/analytics-core'
